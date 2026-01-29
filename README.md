@@ -1,70 +1,55 @@
-🎓 Prediksi Performa Siswa Menggunakan Machine Learning
-📌 Gambaran Proyek
+# 🎓 Prediksi Student Performance Menggunakan Machine Learning
+
+## 📌 Gambaran Proyek
 
 Proyek ini bertujuan untuk memprediksi performa akademik siswa menggunakan model machine learning berbasis regresi. Analisis dilakukan dengan memanfaatkan data demografis, kebiasaan belajar, dan latar belakang akademik siswa untuk memahami faktor-faktor yang memengaruhi hasil belajar.
 
-🎯 Tujuan
+## 🎯 Tujuan
 
-Menganalisis faktor-faktor yang memengaruhi performa siswa
+* Menganalisis faktor-faktor yang memengaruhi performa siswa
+* Membangun dan mengevaluasi model regresi untuk memprediksi nilai akhir siswa
+* Membandingkan performa model menggunakan metrik evaluasi yang sesuai
 
-Membangun dan mengevaluasi model regresi untuk memprediksi nilai akhir siswa
-
-Membandingkan performa model menggunakan metrik evaluasi yang sesuai
-
-📊 Dataset
+## 📊 Dataset
 
 Dataset berisi informasi terkait siswa, antara lain:
 
-Data demografis
-
-Kebiasaan belajar
-
-Latar belakang akademik
-
-Nilai atau skor akademik
+* Data demografis
+* Kebiasaan belajar
+* Latar belakang akademik
+* Nilai atau skor akademik
 
 Tahapan praproses data meliputi pembersihan data, penanganan nilai hilang, encoding fitur, dan eksplorasi data (EDA).
 
-🛠️ Tools & Teknologi
+## 🛠️ Tools & Teknologi
 
-Python
+* Python
+* Pandas & NumPy
+* Matplotlib & Seaborn
+* Scikit-learn
+* Jupyter Notebook
 
-Pandas & NumPy
+## 🔍 Alur Pengerjaan
 
-Matplotlib & Seaborn
+1. Pemahaman dan pembersihan data
+2. Exploratory Data Analysis (EDA)
+3. Feature engineering
+4. Pelatihan model regresi
+5. Evaluasi model
+6. Interpretasi hasil
 
-Scikit-learn
-
-Jupyter Notebook
-
-🔍 Alur Pengerjaan
-
-Pemahaman dan pembersihan data
-
-Exploratory Data Analysis (EDA)
-
-Feature engineering
-
-Pelatihan model regresi
-
-Evaluasi model
-
-Interpretasi hasil
-
-📈 Evaluasi Model
+## 📈 Evaluasi Model
 
 Performa model dievaluasi menggunakan metrik:
 
-Mean Absolute Error (MAE)
+* Mean Absolute Error (MAE)
+* Mean Squared Error (MSE)
+* R-squared (R²)
 
-Mean Squared Error (MSE)
-
-R-squared (R²)
-
-✅ Hasil
+## ✅ Hasil
 
 Model regresi mampu memprediksi performa siswa dengan tingkat akurasi yang cukup baik serta mengidentifikasi faktor-faktor utama yang berkontribusi terhadap pencapaian akademik siswa.
 
-🚀 Kesimpulan
+## 🚀 Kesimpulan
 
 Proyek ini menunjukkan bahwa penerapan machine learning di bidang pendidikan dapat membantu memprediksi performa siswa serta memberikan insight yang bermanfaat untuk pengambilan keputusan berbasis data.
